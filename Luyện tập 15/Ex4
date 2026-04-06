@@ -1,0 +1,16 @@
+diem1 = float(input("Nhập điểm môn 1: "))
+diem2 = float(input("Nhập điểm môn 2: "))
+diem3 = float(input("Nhập điểm môn 3: "))
+
+tb = (diem1 + diem2 + diem3) / 3
+
+if tb >= 8:
+    xeploai = "Giỏi"
+elif 6.5 <= tb < 8:
+    xeploai = "Khá"
+elif 5 <= tb < 6.5:
+    xeploai = "Trung bình"
+else:
+    xeploai = "Yếu"
+
+print(f"Điểm trung bình: {tb:.2f}, Xếp loại: {xeploai}")
