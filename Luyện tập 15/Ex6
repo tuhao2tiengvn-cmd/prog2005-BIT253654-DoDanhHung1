@@ -1,0 +1,5 @@
+colors = ["Xanh Trời", "Trắng", "Hồng", "Tím", "Đen"]
+print("Danh sách màu trước khi xóa:", colors)
+
+colors.remove("Tím")  
+print("Danh sách màu sau khi xóa:", colors)
