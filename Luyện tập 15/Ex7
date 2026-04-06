@@ -1,0 +1,12 @@
+students = {
+    "Hưng": 9.5,
+    "Huy": 3.6,
+    "Hùng": 10,
+    "Tú": 1.8
+}
+
+def average_score(students_dict):
+    total = sum(students_dict.values())
+    return total / len(students_dict)
+
+print(f"Điểm trung bình của các sinh viên: {average_score(students):.2f}")
